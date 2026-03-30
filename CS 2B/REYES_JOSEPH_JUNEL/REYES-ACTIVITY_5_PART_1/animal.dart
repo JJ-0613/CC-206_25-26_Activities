@@ -17,7 +17,14 @@ class Animal {
     }
   }
 
+  // CU: Multiline String (Using Triple Quotes)
   String displayInfo() {
-    return ' Name: $name\n Kingdom: $kingdom\n DOB: $dob\n Legs: $numLegs';
+    return ''' 
+    Animal Info:
+    - Name: $name
+    - Kingdom: $kingdom
+    - DOB: $dob
+    - Legs: $numLegs
+    ''';
   }
 }
