@@ -3,7 +3,20 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // --- PURPLE (Primary) ---
+  // --- FOREST GREEN (Primary) ---
+  static const Color green50  = Color(0xFFF0FDF4);
+  static const Color green100 = Color(0xFFDCFCE7);
+  static const Color green200 = Color(0xFFBBF7D0);
+  static const Color green300 = Color(0xFF86EFAC);
+  static const Color green400 = Color(0xFF4ADE80);
+  static const Color green500 = Color(0xFF22C55E);
+  static const Color green600 = Color(0xFF16A34A);
+  static const Color green700 = Color(0xFF15803D);
+  static const Color green800 = Color(0xFF166534);
+  static const Color green900 = Color(0xFF14532D);
+  static const Color green950 = Color(0xFF052E16);
+
+  // --- PURPLE (Accent) ---
   static const Color purple50  = Color(0xFFF5F3FF);
   static const Color purple100 = Color(0xFFEDE9FE);
   static const Color purple200 = Color(0xFFDDD6FE);
@@ -16,23 +29,10 @@ class AppColors {
   static const Color purple900 = Color(0xFF4C1D95);
   static const Color purple950 = Color(0xFF2E1065);
 
-  // --- LAVENDER (Secondary / Soft) ---
-  static const Color lavender50  = Color(0xFFFAF5FF);
-  static const Color lavender100 = Color(0xFFF3E8FF);
-  static const Color lavender200 = Color(0xFFE9D5FF);
-  static const Color lavender300 = Color(0xFFD8B4FE);
-  static const Color lavender400 = Color(0xFFC084FC);
-  static const Color lavender500 = Color(0xFFA855F7);
-
-  // --- VIOLET (Accents) ---
-  static const Color violet300 = Color(0xFFB899FF);
-  static const Color violet500 = Color(0xFF7C3AED);
-  static const Color violet700 = Color(0xFF5B21B6);
-
   // --- NEUTRAL (Backgrounds / Text) ---
-  static const Color background = Color(0xFFF5F3FF);
+  static const Color background = Color(0xFFF0FDF4);
   static const Color surface    = Color(0xFFFFFFFF);
-  static const Color textDark   = Color(0xFF2E1065);
-  static const Color textMid    = Color(0xFF6D28D9);
-  static const Color textLight  = Color(0xFFA78BFA);
+  static const Color textDark   = Color(0xFF052E16);
+  static const Color textMid    = Color(0xFF16A34A);
+  static const Color textLight  = Color(0xFF86EFAC);
 }
